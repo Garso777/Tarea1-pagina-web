@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@font-face {
+    font-family:"Dancing Script" ;
+    src: url("Dancing-Script.woff");
+    font-family: "Cinzel Decorative";
+    src: url("Cinzel-Decorative.woff2");
+    font-family: "Alfa Slab One";
+    src: url("Alfa Slab One.woff2")
+}
+
+p{
+    font-family: "Cinzel Decorative";
+    font-size:80%;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+  
+
+html {
+background-color:#87CEEB;
+}
+
+h1 {
+    font-family: "Ribeye Marrow", cursive;
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(236, 88, 88);
+    text-shadow: gray 6px 6px;
+}
+
+h2 {
+    font-family: "Alfa Slab One";
+    margin: 20px;
+    margin-bottom: 20px;
+}
+h3{
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+h4{
+    font-family:"Dancing Script";
+    font-size: 120%;
+    
+}
+.foto1{
+    align-items: left;
+      width: 200px;
+      height: 200px;
+      margin: 3px;
+      padding: 3px;
+      border: rgb(236, 88, 88) 3px solid;
+}
+.foto1 {
+    transition: transform .4s; 
+}
+ 
+.foto1:hover {
+    transform: scale(1.5); 
+}
+
+.foto2{
+    width: 1000px;
+    height: 300px;
+    position:relative;  
+    left:300px;
+}
+
+.foto3{
+    width:720px; 
+    height:500px;
+    margin: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+a {
+    color: rgb(55, 0, 255);
+    padding: 0 4px;
+    text-decoration: none;
+    margin: 20px;
+    margin-bottom: 20px;
+  }
+  
+  a:hover {
+    background-color: rgb(255, 0, 0);
+    color: #000000;
+  }
+ 
+
+  
